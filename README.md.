@@ -1,0 +1,96 @@
+Event Management System - Database Project
+
+This project focuses on building a Relational Database Management System (RDBMS) for an Event Management System.
+It is designed to organize and manage events such as weddings, corporate meetings, seminars, and concerts effectively.
+
+Submitted by
+Name: Anshul Sharma
+
+UID: 23BCA10200
+
+Section: 23BCA4-B
+
+Submitted to
+Name: Mr. Arvinder Singh
+
+Designation: Professor
+
+Contents
+Introduction
+
+Techniques Used
+
+System Configuration
+
+Input Details
+
+ER Diagram
+
+Table Relationships
+
+Tabular Format
+
+Table Creation Scripts
+
+SQL Queries with Outputs
+
+Summary
+
+Conclusion
+
+Tools & Technologies
+Operating System: Windows 10
+
+Database Software: MySQL / Oracle / PostgreSQL
+
+Programming Tool: MySQL Workbench
+
+RAM: Minimum 4 GB
+
+Processor: Intel Core i3
+
+Storage: Minimum 1 GB available
+
+Key Database Tables
+Client: Stores client personal information.
+
+ServiceProvider: Stores service provider details and charges.
+
+Venue: Details about event locations.
+
+Event: Event types and capacity linked with venues.
+
+Booking: Links clients, venues, and service providers.
+
+Payment: Tracks payment information for bookings.
+
+Major Relationships
+One client can have multiple bookings.
+
+One service provider can serve multiple bookings.
+
+One booking is linked to one payment.
+
+One venue describes one event setup.
+
+Important SQL Operations
+Create and manage tables with primary and foreign keys.
+
+Execute complex SQL queries such as joins, groupings, filters, and aggregations.
+
+Retrieve client details, venue availability, service provider charges, booking information, and revenue reports.
+
+Highlights
+Proper normalization to remove redundancy.
+
+Accurate and real-time reporting using SQL.
+
+Strong relational integrity between entities.
+
+Well-defined ER Diagram to visualize system architecture.
+
+Prepares backend for a scalable event management platform (website/app).
+
+Conclusion
+This project successfully demonstrates the practical implementation of database management concepts in a real-world event management scenario.
+The system ensures organized, efficient, and accurate event management, reducing manual workload and enhancing client satisfaction.
